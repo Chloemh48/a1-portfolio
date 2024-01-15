@@ -8,20 +8,46 @@ EMAIL: xfabro@uci.edu
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Chloe Fabro">
-  <meta name="description" content="description of your page">
+  <meta name="Chloe Fabro" content="IE=edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
    <!-- you would link to an external stylesheet here! -->
    <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaqueries.css" >
+  <title>My Resume</title>
 </head>
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
-  <p>
-    Hello World
-  </p>
-</body>
+  <nav id="desktop-nav">
+    <div class="logo">Chloe Fabro</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </div>
+    </nav>
+    <nav id="hamburger-nav">
+   
+        <div class="logo">Chloe Fabro</div>
+        <div class="humburger-menu">
+          <div class="humburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+          </div>
+        </div>
+  </nav>
+    <script src="script.js"></script>
+
+  </body>
 </html>
