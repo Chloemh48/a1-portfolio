@@ -1,53 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<!--
-WRITTEN BY: Chloe Fabro
-EMAIL: xfabro@uci.edu
--->
-
-<head>
-  <meta charset="utf-8">
-  <meta name="Chloe Fabro" content="IE=edge">
-  <meta name="viewport" content="width-device-width, initial-scale=1.0">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="mediaqueries.css" >
-  <title>My Resume</title>
-</head>
-<body>
-  <nav id="desktop-nav">
-    <div class="logo">Chloe Fabro</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-
-      </ul>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Chloe Fabro</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+      
+          <li><a href="/Users/liyuanyuan/Documents/GitHub/a1-portfolio/resume.html">Resume</a></li>
+          <li><a href="/Users/liyuanyuan/Documents/GitHub/a1-portfolio/resume.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-    <nav id="hamburger-nav">
-   
-        <div class="logo">Chloe Fabro</div>
-        <div class="humburger-menu">
-          <div class="humburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span> Chloe</span> a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Chloe, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div>
+            
+            <a  href="/Users/liyuanyuan/Documents/GitHub/a1-portfolio/resume.html" class="hire__me">Hire Me</a>
 
           </div>
         </div>
-  </nav>
-    <script src="script.js"></script>
-
+        <div class="image">
+          <img src="assets/profile.jpeg" alt="profile" />
+        </div>
+      </div>
+    </section>
+  
+  
   </body>
 </html>
