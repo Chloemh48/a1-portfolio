@@ -137,7 +137,7 @@ ul li a:hover {
 }
 
 
-.hire__me {
+.linkedin-page{
   background-color: #ff7f50;
   color: #ffffff;
   font-size: 1rem;
@@ -151,8 +151,7 @@ ul li a:hover {
   cursor: pointer;
   display: inline;
 }
-
-.hire__me:hover {
+.linkedin-page:hover {
   background-color: #da8c70;
 }
 
@@ -213,4 +212,49 @@ ul li a:hover {
   .action__btns {
     margin: auto;
   }
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background: rgb(237, 209, 215);
+  color:#ff7f50 ;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: rgb(237, 209, 215);
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul {
+  padding: 0;
+  list-style: none;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a {
+  color: black;
+  font-weight: bold;
+}
+header a:hover {
+  color: #ffffff;
+  font-weight: bold;
 }
