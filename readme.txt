@@ -22,28 +22,40 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+1). At least one image, with descriptive alt attribute(s)
+2). Appropriate headings and paragraph text
+3).Links to external page
+4). Multiple pages, with appropriate navigation between them
+5). Adding custom icons from Google Material Icons or Font Awesome
 
 
 (b) CSS features
-
+1). Modifying padding and margins to indent content and enhance readability
+2). Modifying link, text color, or other colors to be visually appealing, perhaps with one of the pallette 
+creators in the Resources section.
+3). Adding custom font(s) from Google fonts to add more personality (make sure to include appropriate fallbacks)
 
 
 (c) Advanced features
-
+1). Creating a more complex page layout, such as including a sidebar or navigation bar
+2). A contact form which leverages HTML forms
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+ Aboout 20 hours (In cluding the time I've spent on watching some tutorial videos 
+ on youtube and  studing the matirial from the course resource).  
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 
-
-
+1). https://www.codecademy.com/courses/learn-html/lessons/html-tables/exercises/table-data
+2). https://www.youtube.com/watch?v=G3e-cpL7ofc&t=20543s
+3). https://www.youtube.com/watch?v=8kPk7CTOQh4
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
+ I haven't consult any classmates yet. 
 
 
 
 6. Is there anything special we need to know in order to run your code?
+I don't think there is any special to run my code
 
