@@ -10,14 +10,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/13
-- */1 Readme
-- */2 Basic HTML content
-- */2 Basic CSS styling
-- */2 Advanced feature
-- */3 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+13/13
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 2/2 Basic CSS styling
+- 2/2 Advanced feature
+- 3/3 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -51,11 +51,15 @@ creators in the Resources section.
 1). https://www.codecademy.com/courses/learn-html/lessons/html-tables/exercises/table-data
 2). https://www.youtube.com/watch?v=G3e-cpL7ofc&t=20543s
 3). https://www.youtube.com/watch?v=8kPk7CTOQh4
-5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
- I haven't consult any classmates yet. 
+4). https://webdesignmastery.github.io/Responsive_Portfolio_10-05-23/ 
+*** my homepage style borrows from 4) site
 
+5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
+ 
+ The classmate I consulted was Ivan Honyan Leung. I discussed with him about what specific basicl skills 
+ we have to put in the assignment to avoid lose any points. 
 
 
 6. Is there anything special we need to know in order to run your code?
-I don't think there is any special to run my code
+I don't think so
 
